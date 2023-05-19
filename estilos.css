@@ -1,0 +1,94 @@
+   
+body {
+    background: rgb(85, 144, 189);
+    background: linear-gradient(
+      90deg,
+      rgba(85, 144, 189, 1) 0%,
+      rgba(108, 183, 240, 1) 54%,
+      rgba(182, 216, 242, 1) 82%
+    );
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Oswald", sans-serif;
+  }
+.banner{
+    width: 85%;
+    padding: 5%;
+}
+
+h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 5%;
+    font-size: 3.2rem;
+    color: rgb(13, 29, 99);
+}
+
+*{
+    margin: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h5{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  .card-img, .card-img-bottom, .card-img-top {
+    width: auto !important;
+  }
+
+.card{
+    display: inline-block;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color:rgb(78, 101, 233);
+    color: aliceblue;
+    padding-right: 2rem;
+}
+
+button {
+  margin-top: 3%;
+    padding: 1px;
+    color: aliceblue;
+    border-radius: 7px;
+}
+
+
+
+.atras{
+    background-color: red;
+    color:white;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.atras:hover{
+  background-color: rgb(63, 3, 3);
+}
+
+.btnD{
+  
+  background-color: rgb(78, 101, 233);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 7px;
+ 
+}
+.btnD:hover{
+  background-color: #0d327c;
+}
